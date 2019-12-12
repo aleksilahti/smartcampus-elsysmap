@@ -13,4 +13,8 @@ export class MainComponent implements OnInit {
 
   ngOnInit() {  
   }
+
+  getSensors(){
+    return this.deviceService.getSensors()
+  }
 }

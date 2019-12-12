@@ -13,5 +13,7 @@ export class AppComponent implements OnInit {
 
     ngOnInit() {
     }
-
+    checkOverlayStatus(){
+        return this.deviceService.overlayOpen
+    }
 }
