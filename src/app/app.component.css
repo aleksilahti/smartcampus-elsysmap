@@ -1,0 +1,11 @@
+app-header{
+    position: static;
+    height: 8vh;
+    width: 100vw;
+}
+app-main{
+    top: 8vh;
+    position: fixed;
+    height: 100vh;
+    width: 100vw;
+}

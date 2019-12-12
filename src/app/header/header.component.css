@@ -1,0 +1,13 @@
+.toolbar {
+    position: fixed;
+    z-index: 99;
+    top: 0;
+    height: 8%;
+    margin: 0px;
+    padding: 0px;
+}
+
+.toolbar span{
+    font-size: 4vh;
+    margin-left: 1vw;
+}
